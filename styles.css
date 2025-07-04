@@ -26,6 +26,19 @@ ul{
     gap: 16px;
 
 }
+nav h1{
+    font-size: 24px;
+}
+
+li{
+    font-size: 18px;
+}
+
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
 
 ul a{
     font-size: 12px;
@@ -33,7 +46,7 @@ ul a{
 
 .subtext{
     color: #e5e7eb;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .sign-up{
@@ -50,17 +63,124 @@ ul a{
     display: flex;
     gap: 50px;
     margin-bottom: 32px;
+    align-items: center;
 }
 
 .hero-left{
-    width: 300px;
+    width: 400px;
 }
 
 .placeholder{
     width: 600px;
-    height: 200px;
+    height: 300px;
     background: #6b7280;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Cards styling */
+
+h2{
+    font-size: 36px;
+    color: #1f2937;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    /* gap: 20px; */
+
+}
+
+
+.box{
+    width: 120px;
+    height: 120px;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.card p{ 
+    text-align: center; /* Text below the box*/
+    font-size: 12px;
+    margin: 0;
+}
+
+
+.card-container{
+    display: flex;
+    gap: 80px;
+}
+
+/* Testimonial styling */
+
+.testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e5e7eb;
+    margin-top: 80px;
+}
+
+.testimonial-text{
+    width: 800px;
+    font-style:italic;
+    font-size: 36px;
+    padding: 24px;
+    text-align: left;
+}
+
+#signature{
+    text-align: right;
+    font-weight: 700;
+}
+
+
+/* CTA styling */
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-banner{
+    display: flex;
+    padding: 20px 80px;
+    background: #3882f6;
+    color: white;
+    margin: 60px 0px;
+    border-radius: 8px;
+    gap: 40px;
+    align-items: center
+}
+
+.cta-button{
+    display: inline-block;
+    /* height: 40px; */
+    padding: 8px 24px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 8px 16px;
 }
